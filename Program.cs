@@ -58,7 +58,7 @@ namespace CopyFindReferencesToClipboard
                 return;
             }
 
-            text = "Type\tName\tSub-node\tSub-node name\tLine numbers\tExtra info\n" + text;
+            text = "\tType\tName\tSub-node\tSub-node name\tLine numbers\tExtra info\n" + text;
 
             text = text.Replace("dynamics://", "\t");
             text = text.Replace(" - ", "\t");
